@@ -5,6 +5,7 @@ The model decodes the input image and compares it to the original image using a 
 
 ## Usage
 The repository contains the trained model in the folder `autoencoder`. 
+The model has a 95% accuracy in recognizing the anomalies; the threshold is dynamically computed by an algorithm that finds the most effective one.
 
 To run the model analysis, run the following command:
 ```
